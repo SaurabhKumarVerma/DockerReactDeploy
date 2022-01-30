@@ -10,4 +10,4 @@ before_install:
 
 script:
  - npm run build
-  - docker run reacttest npm test -- --coverage
+  - docker run reacttest npm run test -- --coverage
