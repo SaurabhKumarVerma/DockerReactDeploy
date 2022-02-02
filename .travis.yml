@@ -14,9 +14,9 @@ script:
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: "Encrypted <access-key-id>=AKIAXZ5HP46XZGTDQXX4"
+    secure: "Encrypted AKIAXZ5HP46XZGTDQXX4"
   secret_access_key:
-    secure: "Encypted <secret-access-key>=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"
+    secure: "Encypted HZqkjnvwt/3Gk5gzkrvElUAbDKeEevMr9zZ2J4hJ"
   region: "us-east-1"
   app: "docker-react"
   env: "Dockerreact-env"
