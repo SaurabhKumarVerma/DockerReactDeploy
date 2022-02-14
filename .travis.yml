@@ -11,6 +11,7 @@ before_install:
 script:
   - docker run -e CI=true reacttest npm run test -- --coverage
 
+
 deploy:
   provider: elasticbeanstalk
   access_key_id:" $AWS_ACCESS_KEY"
